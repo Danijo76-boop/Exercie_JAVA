@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="gestion_compte.jnlp">
+  <information>
+    <title>gestion_compte</title>
+    <vendor>GABZO THIAW</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="gestion_compte.jar" size="6258" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="gestion_compte.Gestion_compte"  name="gestion_compte" />
+  <update check="always"/>
+</jnlp>
